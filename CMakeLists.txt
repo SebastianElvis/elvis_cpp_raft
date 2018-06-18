@@ -9,7 +9,8 @@ add_subdirectory(log)
 add_subdirectory(message)
 add_subdirectory(network)
 add_subdirectory(state)
+add_subdirectory(shell)
 
 add_executable(elvis_cpp_raft main.cpp)
 
-target_link_libraries(elvis_cpp_raft Log Message Network State)
+target_link_libraries(elvis_cpp_raft Log Message Network State Shell)
