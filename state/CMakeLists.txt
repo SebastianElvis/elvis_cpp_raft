@@ -1,0 +1,1 @@
+add_library(State Candidate.cpp Follower.cpp Leader.cpp State.cpp Voter.cpp)
